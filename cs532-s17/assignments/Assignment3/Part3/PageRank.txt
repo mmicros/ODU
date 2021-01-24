@@ -1,0 +1,12 @@
+PageRank	URI
+--------	---
+0.9			http://www.cnn.com
+0.8			http://www.nbcnews.com/video/watch-live-actor-ashton-kutcher-testifies-at-hearing-on-ending-modern-slavery-877767747903?cid=sm_npd_nn_tw_ma
+0.8			http://www.reuters.com/article/us-usa-trump-russia-ukraine-idUSKBN15U0U0
+0.8			http://www.newyorker.com/news/john-cassidy/its-time-for-a-proper-investigation-of-trumps-russia-ties
+0.5			http://www.ncr-iran.org/en/news/iran-world/22008-this-is-the-time-to-confront-iran-regime
+0.5			http://www.iranfocus.com/en/index.php?option=com_content&view=article&id=31248&catid=4&Itemid=109
+0.4			https://www.newsdeeply.com/refugees/articles/2017/02/14/it-is-scary-to-see-how-the-world-can-change-in-one-night
+0.0			http://www.tmimag.com/all-articles/kurdish-people-not-monolith/
+0.0			http://cnnphilippines.com/world/2017/02/15/us-special-ops-isis-fighters-killed.html
+0.0			https://themoscowtimes.com/articles/russias-alleged-inf-violation-isnt-so-clear-cut-

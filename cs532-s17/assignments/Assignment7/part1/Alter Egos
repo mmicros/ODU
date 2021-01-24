@@ -1,0 +1,48 @@
+
+
+-------------------------------
+User : ['73', '24', 'M', 'student']
+
+Top : ('Shawshank Redemption, The (1994)', 5.0)
+('Delicatessen (1991)', 5.0)
+('Godfather: Part II, The (1974)', 5.0)
+('Clockwork Orange, A (1971)', 5.0)
+('Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)', 5.0)
+
+Bottom :('Home Alone (1990)', 1.0)
+('Home Alone 3 (1997)', 1.0)
+('Jurassic Park (1993)', 2.0)
+('Saint, The (1997)', 2.0)
+('Toy Story (1995)', 2.0)
+
+
+-------------------------------
+User : ['301', '24', 'M', 'student']
+
+Top : ('Forrest Gump (1994)', 5.0)
+('Mystery Science Theater 3000: The Movie (1996)', 5.0)
+('Rock, The (1996)', 5.0)
+('Disclosure (1994)', 5.0)
+("Jackie Chan's First Strike (1996)", 5.0)
+
+Bottom :('Heat (1995)', 1.0)
+('Dirty Dancing (1987)', 1.0)
+('Crying Game, The (1992)', 1.0)
+('Leaving Las Vegas (1995)', 1.0)
+('Natural Born Killers (1994)', 1.0)
+
+
+-------------------------------
+User : ['369', '24', 'M', 'student']
+
+Top : ('Star Wars (1977)', 5.0)
+('Empire Strikes Back, The (1980)', 5.0)
+('Dead Poets Society (1989)', 5.0)
+('Wallace & Gromit: The Best of Aardman Animation (1996)', 5.0)
+('Starship Troopers (1997)', 5.0)
+
+Bottom :('Booty Call (1997)', 2.0)
+('How to Be a Player (1997)', 2.0)
+('Spawn (1997)', 3.0)
+('Monty Python and the Holy Grail (1974)', 3.0)
+('Mortal Kombat: Annihilation (1997)', 3.0)

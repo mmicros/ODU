@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1361</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="Running">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>240</y>
+      <width>411</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>pID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Priority</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Resources</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bursts  </string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="execute">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>240</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Execute 
+ Time Step</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="running_label">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>210</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>RUNNING </string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="blocked">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>480</y>
+      <width>411</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>pID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Priority</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Resources</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bursts  </string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="blocked_label">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>450</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>BLOCKED</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="messageBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>431</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 238, 49);
+font: 12pt &quot;Arial Rounded MT Bold&quot;;</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial Rounded MT Bold'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WELCOME TO THE PROCESS DISPATCHER SIMULATION!!! &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1.PRESS &amp;quot;INITIALIZE PROCESSES&amp;quot; TO PREPOPULATE THE READY QUEUE&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	OR&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2. MANUALLY ADD A PROCESS AT A TIME BY PRESSING &amp;quot;ADD PROCESS&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Block">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>300</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Block 
+ Process</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="terminate">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>360</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Terminate 
+ Process</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="block_combo">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>320</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="terminate_combo">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>370</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_to_ready">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>480</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Send To 
+ Ready</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="ready_combo">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>490</y>
+      <width>41</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QFrame" name="running_frame">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>210</y>
+      <width>651</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(148, 148, 148);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>450</y>
+      <width>651</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(148, 148, 148);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="send_to_cpu">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>240</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Send Process 
+ To CPU</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="readyQueue">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>240</y>
+      <width>411</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>pID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Priority</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Resources</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bursts</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="context_switch">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>300</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Context 
+ Switch</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ready_label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>210</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>READY QUEUE</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>651</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(148, 148, 148);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="resCount">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>90</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;Quartz MS&quot;;
+</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>20</y>
+      <width>431</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(41, 155, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="clock_cycles">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>90</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;Quartz MS&quot;;
+border-color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_label">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>30</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>     TIME 
+ ELAPSED</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resource_label">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>30</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>RESOURCES 
+ AVAILABLE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>60</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Arial Rounded MT Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Add Process</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="init_btn">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>60</y>
+      <width>101</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Arial Rounded MT Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Initialize 
+ Processes</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>431</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(148, 148, 148);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>frame_3</zorder>
+   <zorder>frame_4</zorder>
+   <zorder>running_frame</zorder>
+   <zorder>Running</zorder>
+   <zorder>execute</zorder>
+   <zorder>running_label</zorder>
+   <zorder>blocked</zorder>
+   <zorder>blocked_label</zorder>
+   <zorder>messageBox</zorder>
+   <zorder>Block</zorder>
+   <zorder>terminate</zorder>
+   <zorder>block_combo</zorder>
+   <zorder>terminate_combo</zorder>
+   <zorder>send_to_ready</zorder>
+   <zorder>ready_combo</zorder>
+   <zorder>send_to_cpu</zorder>
+   <zorder>readyQueue</zorder>
+   <zorder>context_switch</zorder>
+   <zorder>ready_label</zorder>
+   <zorder>frame_2</zorder>
+   <zorder>clock_cycles</zorder>
+   <zorder>time_label</zorder>
+   <zorder>resource_label</zorder>
+   <zorder>resCount</zorder>
+   <zorder>add</zorder>
+   <zorder>init_btn</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1361</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

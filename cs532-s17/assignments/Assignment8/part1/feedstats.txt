@@ -1,0 +1,124 @@
+Title , Pages
+"F-Measure" , 11
+"Web Science and Digital Libraries Research Group" , 13
+"WhyMomWhy" , 5
+"Daughters of Vision" , 1
+"My Little Corner of the World" , 100
+"Nibbling Gypsy" , 8
+"The New Haven Register Blogs: Vegging Out" , 10
+"Starr Circus" , 1
+"Redblur Ramblings" , 10
+"Food Made of Love" , 11
+"Penang" , 15
+"The Unquiet Grave" , 8
+"My Coffee Stop Stories" , 1
+"A Frugal Wench" , 4
+"Try This Yourself" , 6
+"Chubby Vegan Mom" , 17
+"The Taste of Travel" , 3
+"from the kitchen" , 4
+"Eating with Bob and Suzette" , 60
+"geeks.rate(food)" , 4
+"Recipe for Fitness" , 44
+"From Redding Mountain" , 8
+"A Different Perspective" , 3
+"Collage Of Life" , 2
+"Freeze Your Way Fit" , 7
+"nikonikobaby" , 6
+"Miranda" , 56
+"Peculiar Periodical" , 3
+"Best Recepis" , 4
+"Healthy Mommy - Body and Soul" , 11
+"Samara and Aaron's Alaskan Adventure" , 8
+"Foodilicious" , 7
+"Hide n' Go Seek" , 3
+"The Unquiet Grave" , 8
+"Rebecca's Amazing Creations" , 48
+"The Skinny Gourmet" , 9
+"You'll Eat It and Like It" , 31
+"Top Class Food" , 5
+"Ambers Nook" , 9
+"*Janette's Living Days*" , 7
+"My Kitchen's Aroma" , 18
+"LandOfTheLel" , 21
+"Sarah and the City" , 5
+"A Fork And A Suitcase" , 7
+"Enthaligai" , 4
+"Barron County Retired Educators" , 4
+"Excellent Kitchen" , 2
+"Montana Cardiovascular Disease and Diabetes Prevention Project" , 6
+"sense-a(Ha!)-bility" , 3
+"Mom's cooking" , 15
+"Flippa Bird" , 8
+"Adventures of the Balas Clan" , 56
+"Nick Lioggaris" , 12
+"Garden Eat Live" , 23
+"Our Lives" , 4
+"Maria Craddock Gets U Fit" , 4
+"Trav" , 1
+"Making Crafts in the Woods" , 10
+"A Homegrown Family" , 18
+"Warner Family Blog" , 9
+"Day in day out ...." , 10
+"Teacher's recipes" , 28
+"A Mother's Place is in the Wrong." , 14
+"A Green Faerie's Herbal,--- a place for green growing things & lively faeries!!!..." , 6
+"Emily is in England" , 4
+"The Wicked Truth" , 24
+"Sisterhood of the Traveling Recipes" , 3
+"Dining with a Dinergirl" , 12
+"Birrell Family Blog" , 53
+"Miller Family Memories" , 4
+""Agreed, Number One"" , 6
+"Piecey Num Nums" , 3
+"Angie's Recipes . Taste Of Home" , 27
+"Color and Spices" , 1
+"Bern's Collections" , 25
+"LIFE STYLE" , 3
+"lawrence's recipes" , 6
+"Melissa Right Now" , 1
+"Inside the M&M" , 5
+"Desperate Anglo Housewives : Bordeaux" , 6
+"WhyMomWhy" , 5
+"This A.M." , 9
+"Nested Development" , 1
+"Life is... Glamorous and Fabulous!" , 26
+"Desirable Recipes" , 12
+"What's Cooking!" , 7
+"Agita makeup" , 22
+"Dining In Austin" , 9
+"Mom Tested, Kid Approved" , 16
+"Aishwarya Eats" , 4
+"Seriously... Thoughts?" , 15
+"Fruia Family" , 5
+"I Can't Believe I Ate The Whole Thing!" , 55
+"Nicole & Garrett Barber" , 21
+"The World of Me - Jennyb" , 10
+"Cheryl's 2 Cents' Worth" , 1
+"Aces Family" , 24
+"The Tiny Skillet" , 14
+"The Art Barista!" , 6
+"Keeping Up With The Smiths" , 12
+"The Jones Archive" , 29
+"The Blue Plate Special" , 23
+"Sisterhood of the Traveling Scarf" , 42
+"Very Hungry People" , 3
+"Little Kitchen" , 17
+"Foodies and Spice" , 15
+"Jayne Whyte Online" , 16
+"Shape Your Life" , 12
+"Vegetarian Recipes" , 1
+"Budget Food Review" , 6
+"Love makes life beautiful" , 1
+"AVFTL" , 4
+"yummylittlecooks" , 1
+"Stamattina" , 9
+"Madtown Mama" , 43
+"Confessions of a Domestic Delinquent" , 8
+"Chena Girl Cooks" , 3
+"Katy @ Sommerville Special School" , 6
+"Pinch Me" , 8
+"The New Haven Register Blogs: Vegging Out" , 10
+"Too Much Information" , 18
+"Loves Food, Loves to Eat" , 17
+"7 Weeks' Out on the road..." , 4

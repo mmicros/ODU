@@ -1,0 +1,5 @@
+`Part1.py` contains the functions used to extract the raw and processed HTML.
+`main.py` call the appropriate functions from part1.py
+`Links1000` contains the URIs
+'Raw` contains the unprocessed HTML for all the URIs
+`Processed` contains the processed HTML for all the URIs

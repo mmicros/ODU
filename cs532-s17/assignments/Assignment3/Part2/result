@@ -1,0 +1,21 @@
+TFIDF      Term       Total      TF         IDF        URIs      
+
+0.2671     21          1063       0.0198     13.5222     http://www.cnn.com/2016/10/09/politics/trump-pence-syria-disagreement/index.html
+
+0.1290     14          1468       0.0095     13.5222     http://www.tmimag.com/all-articles/kurdish-people-not-monolith/
+
+0.0361     7           2623       0.0027     13.5222     https://www.newsdeeply.com/refugees/articles/2017/02/14/it-is-scary-to-see-how-the-world-can-change-in-one-night
+
+0.0270     4           2004       0.0020     13.5222     http://www.nbcnews.com/video/watch-live-actor-ashton-kutcher-testifies-at-hearing-on-ending-modern-slavery-877767747903?cid=sm_npd_nn_tw_ma
+
+0.0198     3           2045       0.0015     13.5222     http://www.ncr-iran.org/en/news/iran-world/22008-this-is-the-time-to-confront-iran-regime
+
+0.0155     2           1742       0.0011     13.5222     http://www.reuters.com/article/us-usa-trump-russia-ukraine-idUSKBN15U0U0
+                           
+0.0119     1           1137       0.0009     13.5222     http://www.iranfocus.com/en/index.php?option=com_content&view=article&id=31248&catid=4&Itemid=109
+
+0.0108     1           1247       0.0008     13.5222     http://cnnphilippines.com/world/2017/02/15/us-special-ops-isis-fighters-killed.html
+                
+0.0106     4           5096       0.0008     13.5222     https://themoscowtimes.com/articles/russias-alleged-inf-violation-isnt-so-clear-cut-57161
+
+0.0089     2           3026       0.0007     13.5222     http://www.newyorker.com/news/john-cassidy/its-time-for-a-proper-investigation-of-trumps-russia-ties

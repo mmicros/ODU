@@ -1,0 +1,5 @@
+The file named tweepy_testing.py contains all the functions that are used for Part 1 (i.e. Getting tweets, extracting links, saving to file, etc)
+
+The main.py serves simply as means to manually choose how many tweets to download and what file to save them in.
+
+The "links1000" file contains all the 1000 unique links extracted from twitter.
